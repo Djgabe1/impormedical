@@ -1,0 +1,99 @@
+.baner{
+    background-image: url("http://192.168.100.4:3000/img/01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    width: 100%;
+}
+
+.banerContainer{
+    display: flex;
+    font-size: 55px;
+    flex-direction: column;
+    font-weight: 500;
+    
+}
+
+.banerText{
+    margin-left: 105px;
+    width: 20%;
+    margin-top: 9%;
+    position: relative;
+    color: #fff;
+}
+.banerTextItem{
+    margin-top: 5px;
+}
+
+.banerText1{
+    color: #ECF703;
+}
+
+.banerButton{
+    width: 200px;
+    height: 60px;
+    margin-left: 105px;
+    cursor: pointer;
+    background-color: #226CCF;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+    .banerContainer{
+        display: flex;
+        font-size: 85px;
+        flex-direction: column;
+        font-weight: 500;
+        
+    }
+    .banerText{
+        margin-left: 195px;
+        width: 20%;
+        margin-top: 9%;
+        position: relative;
+        color: #fff;
+    }
+
+    .banerButton{
+        width: 500px;
+        height: 220px;
+        margin-left: 195px;
+        cursor: pointer;
+        background-color: #226CCF;
+        border: none;
+        color: #fff;
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (min-width: 2000px) {
+    .banerContainer{
+        display: flex;
+        font-size: 85px;
+        flex-direction: column;
+        font-weight: 500;
+        
+    }
+    .banerText{
+        margin-left: 205px;
+        width: 20%;
+        margin-top: 9%;
+        position: relative;
+        color: #fff;
+    }
+
+    .banerButton{
+        width: 400px;
+        height: 120px;
+        margin-left: 205px;
+        cursor: pointer;
+        background-color: #226CCF;
+        border: none;
+        color: #fff;
+        font-size: 37px;
+    }
+
+}
